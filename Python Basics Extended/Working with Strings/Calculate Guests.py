@@ -34,5 +34,11 @@ def calculate_guests(guests_input: str) -> Union[int, str]:
     return int(number)
 
 
-calculate_guests("I think 5 guests")
-calculate_guests("Big company of 15 dudes")
+print(calculate_guests("I think 5 guests"))
+print(calculate_guests("Big company of 15 dudes"))
+print(calculate_guests("5"))
+print(calculate_guests("alone"))
+print(calculate_guests("0"))
+print(calculate_guests("Hello, 9.75 people"))
+print(calculate_guests("There will be 7 or 9 guys"))
+print(calculate_guests("hello cat walks on my keyboard ksadjfhskaj12.34kasdfhsjk"))
